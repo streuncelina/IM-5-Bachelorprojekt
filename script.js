@@ -6,7 +6,7 @@ function startCountdown() {
 }
 
 var menubutton = document.querySelector(".menubutton");
-var menu = document.querySelector(".menu");
+var menu = document.querySelector("nav");
 
 menubutton.onclick = function () {
     if (menu.style.display === "none" || menu.style.display === "") {
@@ -58,3 +58,4 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+

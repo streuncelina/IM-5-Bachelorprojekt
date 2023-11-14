@@ -9,6 +9,7 @@ header {
 }
 
 nav {
+    display: none;
     position: fixed;
     top: 0px;
     right: 0px;
@@ -27,7 +28,6 @@ nav {
 }
 
 .menu {
-    display: none;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -38,6 +38,10 @@ nav {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     background-color: #026B65;
+    margin: 0; /* Kein Abstand zwischen den Menüpunkten */
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 .menu li a {
@@ -331,20 +335,72 @@ body {
 }
 
 .image-gallery img {
-    display: block;
     margin: 0 auto;
     width: 300px; /* Breite der Bilder anpassen */
     margin-bottom: 20px; /* Abstand zwischen den Bildern */
 }
 
-.Text-Eindrücke {
-    margin-right: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: #82B1C3;
-    border-radius: 5px;
-    
+/* Bestehende Stile hier */
+
+.image-gallery img {
+  display: block;
+  margin: 0 auto;
+  width: 300px; /* Standardbreite der Bilder */
+  margin-bottom: 20px; /* Abstand zwischen den Bildern */
+  transition: transform 0.3s ease-in-out; /* Animiere die Transformationsänderungen */
+}
+
+.image-gallery img:hover {
+  transform: scale(1.2); /* Vergrößere das Bild beim Überfahren mit der Maus um 20% */
+}
+
+
+/* Standard-Stile */
+
+/* Hier kommen die vorhandenen Stile vor der Media Query */
+
+/* Media Query für Bildschirme mit einer Breite von 768 Pixeln oder weniger */
+@media (max-width: 768px) {
+  /* Countdown-Box und Haupttext zu einer vertikalen Flexbox anordnen */
+  .container {
+      flex-direction: column; /* Ändert die Richtung der Flexbox auf vertikal */
+      align-items: center; /* Zentriert die Elemente horizontal */
+  }
+
+  /* Countdown-Timer unter die Demenz-Veranstaltung verschieben */
+  .countdown-box {
+      margin-top: 20px; /* Passe den Abstand nach Bedarf an */
+      margin-left: 0; /* Setze den linken Rand zurück, falls angepasst */
+  }
+
+  /* Füge Abstand zwischen Countdown und Haupttext hinzu */
+  .Haupttext {
+      margin-top: 20px; /* Passe den Abstand nach Bedarf an */
+  }
+
+  /* Stile für andere Anpassungen auf kleinen Bildschirmen können hier hinzugefügt werden */
+}
+
+/* Bestehende Stile hier */
+
+.thank-you-message {
+  display: none;
+  background-color: #82B1C3;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 0; /* Abstand oben und unten von 20px */
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.thank-you-message h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.thank-you-message p {
+  font-size: 16px;
+  margin: 0;
 }
 
