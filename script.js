@@ -62,6 +62,13 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
   
+  // Willkommen Seite 
+  
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelector('.continue-text').addEventListener('click', function () {
+        window.location.href = 'index.html';
+    });
+});
   
 
 
