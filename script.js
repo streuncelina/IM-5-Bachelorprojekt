@@ -44,18 +44,26 @@ function updateCountdown() {
 // Starten Sie den Countdown, wenn das Dokument geladen ist
 document.addEventListener('DOMContentLoaded', startCountdown);
 
-// JavaScript-Code, um von jedem Bereich der Seite zur Hauptseite zurückzukehren
-document.addEventListener('DOMContentLoaded', function () {
-    // Element auswählen, das den gesamten Seiteninhalt umfasst
-    const pageContent = document.querySelector('body');
 
-    // Event-Listener hinzufügen, um auf Klicks auf den Seiteninhalt zu reagieren
-    pageContent.addEventListener('click', function (event) {
-        // Überprüfen, ob der Klick auf den leeren Bereich der Seite erfolgte (nicht auf Links oder andere Elemente)
-        if (event.target === pageContent) {
-            // Umleitung zur Hauptseite
-            window.location.href = 'file:///Users/celinastreun/Desktop/IM%205%20/startseite.html'; // Ändern Sie dies auf die tatsächliche Hauptseiten-URL
-        }
+// Dankeschön 
+
+document.addEventListener('DOMContentLoaded', function () {
+    const registrationForm = document.getElementById('registration-form');
+    const thankYouMessage = document.getElementById('thank-you-message');
+  
+    registrationForm.addEventListener('submit', function (event) {
+      event.preventDefault(); // Verhindert das Standardverhalten des Formulars (das Neuladen der Seite)
+  
+      // Hier können Sie weitere Logik für die Formularverarbeitung hinzufügen, z. B. eine AJAX-Anfrage senden.
+  
+      // Zeige die Dankesnachricht an und blende das Formular aus
+      registrationForm.style.display = 'none';
+      thankYouMessage.style.display = 'block';
     });
-});
+  });
+  
+  
+
+
+  
 

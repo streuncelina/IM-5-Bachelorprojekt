@@ -1,4 +1,3 @@
-
 body {
     background: #CFEADE;
     padding: 0;
@@ -77,7 +76,7 @@ nav {
 h1 {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
-    color: white;
+    color: #82B1C3;
     text-align: center;
     display: inline;
 
@@ -121,15 +120,21 @@ h2 {
 /* Stil für das Formularcontainer */
 
 .form-container {
-    max-width: 800px;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding: 90px;
-    background-color: #82B1C3;
-    border-radius: 20px;
-    font-family: "Roboto", sans-serif; /* Schriftart für das Formular */
-    color: white;
-    
+  max-width: 800px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 90px;
+  border-radius: 20px;
+  font-family: "Roboto", sans-serif; /* Schriftart für das Formular */
+  color: white;
+  background-color: #026B65; /* Hintergrundfarbe für das Formular */
+}
+
+
+.Anmeldungtext {
+  text-align: center;
+  padding: 20px;
+  background-color: #82B1C3;
 }
 
 /* Stil für Formularelemente */
@@ -170,7 +175,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0; /* Hintergrundfarbe der Website */
+    
 }
 
 .container {
@@ -275,6 +280,7 @@ body {
   h1 {
     font-size: 24px;
     margin: 0 0 20px; /* Entfernt den oberen und unteren Abstand von h1 und fügt Abstand zum unteren Rand hinzu */
+    color: white;
   }
   
   .timeline {
@@ -329,78 +335,48 @@ body {
     border-radius: 20px;
   }
   
-  /* Stile für die Bildergalerie */
-.image-gallery {
-    text-align: center;
+ /* Galerie eindrücke */
+
+ .image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .image-gallery img {
-    margin: 0 auto;
-    width: 300px; /* Breite der Bilder anpassen */
-    margin-bottom: 20px; /* Abstand zwischen den Bildern */
-}
-
-/* Bestehende Stile hier */
-
-.image-gallery img {
-  display: block;
-  margin: 0 auto;
-  width: 300px; /* Standardbreite der Bilder */
-  margin-bottom: 20px; /* Abstand zwischen den Bildern */
-  transition: transform 0.3s ease-in-out; /* Animiere die Transformationsänderungen */
+  margin: 10px;
+  transition: transform 1.5s;
+  max-width: 300px; /* Setzen Sie die maximale Breite für die Bilder */
 }
 
 .image-gallery img:hover {
-  transform: scale(1.2); /* Vergrößere das Bild beim Überfahren mit der Maus um 20% */
+  transform: scale(1.5);
 }
 
-
-/* Standard-Stile */
-
-/* Hier kommen die vorhandenen Stile vor der Media Query */
-
-/* Media Query für Bildschirme mit einer Breite von 768 Pixeln oder weniger */
-@media (max-width: 768px) {
-  /* Countdown-Box und Haupttext zu einer vertikalen Flexbox anordnen */
-  .container {
-      flex-direction: column; /* Ändert die Richtung der Flexbox auf vertikal */
-      align-items: center; /* Zentriert die Elemente horizontal */
-  }
-
-  /* Countdown-Timer unter die Demenz-Veranstaltung verschieben */
-  .countdown-box {
-      margin-top: 20px; /* Passe den Abstand nach Bedarf an */
-      margin-left: 0; /* Setze den linken Rand zurück, falls angepasst */
-  }
-
-  /* Füge Abstand zwischen Countdown und Haupttext hinzu */
-  .Haupttext {
-      margin-top: 20px; /* Passe den Abstand nach Bedarf an */
-  }
-
-  /* Stile für andere Anpassungen auf kleinen Bildschirmen können hier hinzugefügt werden */
-}
-
-/* Bestehende Stile hier */
-
+/* Stil für die Dankesnachricht */
 .thank-you-message {
   display: none;
-  background-color: #82B1C3;
-  color: white;
+  max-width: 600px;
+  margin: 50px auto;
   padding: 20px;
-  border-radius: 5px;
-  margin: 20px 0; /* Abstand oben und unten von 20px */
-  font-family: 'Roboto', sans-serif;
+  border-radius: 10px;
+  background-color: #026B65;
+  font-family: "Roboto", sans-serif;
   text-align: center;
+  color: white;
 }
 
-.thank-you-message h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.thank-you-message p {
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 50%; /* Macht den Button rund */
+  overflow: hidden;
+  background-color: white; /* Hintergrundfarbe anpassen */
+  color: #026B65;
+  text-decoration: none;
   font-size: 16px;
-  margin: 0;
+  margin-right: 50px;
 }
+
 
