@@ -380,32 +380,3 @@ body {
 }
 
 
-/* Willkommen Seite  */
-
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-.welcome-container {
-  text-align: center;
-}
-
-h1 {
-  color: #333;
-}
-
-p {
-  color: #555;
-  cursor: pointer;
-}
-
-p:hover {
-  text-decoration: underline;
-}
