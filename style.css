@@ -355,17 +355,26 @@ body {
 }
 
 /* Stil für die Dankesnachricht */
+
+/* Fügen Sie dies am Ende Ihrer vorhandenen CSS-Datei hinzu oder erstellen Sie eine separate CSS-Datei */
+
 .thank-you-message {
   display: none;
-  max-width: 600px;
-  margin: 50px auto;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: #026B65;
-  font-family: "Roboto", sans-serif;
   text-align: center;
-  color: white;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  margin-top: 20px;
 }
+
+.thank-you-message h2 {
+  color: #026B65;
+}
+
+.thank-you-message p {
+  color: #333;
+}
+
 
 .back-button {
   display: inline-block;
@@ -378,5 +387,4 @@ body {
   font-size: 16px;
   margin-right: 50px;
 }
-
 
