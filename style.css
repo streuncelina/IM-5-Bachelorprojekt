@@ -44,31 +44,31 @@ nav {
 }
 
 .menu li a {
-    color: white; /* Farbe ändern, z.B. auf Rot (#ff0000) */
-    text-decoration: none; /* Entfernen der Textunterstreichung */
+    color: white; 
+    text-decoration: none; 
 }
 
 /* Ändern der Schriftfarbe für das Burger-Icon */
 .menubutton {
-    color: #82B1C3; /* Farbe ändern, z.B. auf Grün (#00ff00) */
+    color: #82B1C3; 
 }
 
 .menu li a:hover {
-    color: #82B1C3 ; /* Ändern Sie #FF0000 auf die gewünschte Farbe beim Überfahren mit der Maus */
+    color: #82B1C3 ; 
 }
 
 #content-container {
     display: flex;
-    justify-content: flex-end; /* Bild rechts ausrichten */
-    align-items: center; /* Zentriert den Inhalt vertikal */
-    text-align: left; /* Text links ausrichten */
+    justify-content: flex-end; 
+    align-items: center; 
+    text-align: left; 
 }
 
 
 #text-container {
-    padding: 20px; /* Platz um den Textcontainer hinzufügen */
+    padding: 20px; 
     margin-right: 400px;
-    text-align: center; /* Text horizontal zentrieren */
+    text-align: center; 
     font-size: 200px;
 }
 
@@ -101,19 +101,19 @@ h2 {
     color: white;
     padding: 20px;
     border-radius: 5px;
-    margin: 50px 0; /* Abstand oben und unten von 20px */
+    margin: 50px 0; 
     margin-left: 100px;
-    border-radius: 10px; /* Abgerundete Ecken mit einem Radius von 10px */
+    border-radius: 10px; 
   }
   
   .Haupttext h1 {
     font-size: 24px;
-    margin: 0 0 10px; /* Entfernt den oberen und unteren Abstand von h1 und fügt Abstand zum unteren Rand hinzu */
+    margin: 0 0 10px; 
   }
   
   .Haupttext h2 {
     font-size: 20px;
-    margin: 0; /* Entfernt den oberen und unteren Abstand von h2 */
+    margin: 0; 
   }
 
 
@@ -125,9 +125,9 @@ h2 {
   margin-right: 200px;
   padding: 90px;
   border-radius: 20px;
-  font-family: "Roboto", sans-serif; /* Schriftart für das Formular */
+  font-family: "Roboto", sans-serif; 
   color: white;
-  background-color: #026B65; /* Hintergrundfarbe für das Formular */
+  background-color: #026B65; 
 }
 
 
@@ -186,12 +186,12 @@ body {
 }
 
 .countdown-box {
-    background-color: #82B1C3; /* Hintergrundfarbe des Kästchens */
-    border-radius: 10px; /* Runde Ecken */
+    background-color: #82B1C3; 
+    border-radius: 10px; 
     padding: 20px;
     text-align: center;
-    font-family: 'Roboto', sans-serif; /* Schriftart Roboto Sans Serif */
-    color: #fff; /* Textfarbe */
+    font-family: 'Roboto', sans-serif; 
+    color: #fff; 
     margin-left: 150px;
     margin-right: 80px;
 }
@@ -226,7 +226,7 @@ body {
     color: white;
     padding: 20px;
     border-radius: 50%;
-    border: 2px solid whitesmoke; /* Weiße Linie um den Kreis */
+    border: 2px solid whitesmoke; 
     text-align: center;
     font-family: 'Roboto', sans-serif; 
     font-size: 16px;
@@ -252,8 +252,8 @@ body {
     background-image: url('Images/Hintergrund.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.3; /* Ändern Sie den Wert, um die Transparenz anzupassen. */
-    z-index: -1; /* Stellen Sie sicher, dass dieses Element hinter anderen Elementen liegt. */
+    opacity: 0.3; 
+    z-index: -1; 
   }
 
 /* style.css ueber uns */
@@ -263,7 +263,7 @@ body {
     margin: 0;
     margin-top: 90px;
     padding: 0;
-    background-image: url('Images/Hintergrund.svg'); /* Hintergrundbild-URL */
+    background-image: url('Images/Hintergrund.svg'); 
     background-position: center;
 
   }
@@ -279,29 +279,29 @@ body {
   
   h1 {
     font-size: 24px;
-    margin: 0 0 20px; /* Entfernt den oberen und unteren Abstand von h1 und fügt Abstand zum unteren Rand hinzu */
+    margin: 0 0 20px; 
     color: white;
   }
   
   .timeline {
     display: flex;
-    flex-direction: column; /* Anordnen der Ereignisse in einer Spalte */
+    flex-direction: column; 
   }
   
   .event {
     background-color: #fff;
     padding: 20px;
-    margin: 10px 0; /* Abstand zwischen den Ereignissen */
+    margin: 10px 0; 
   }
   
   h2 {
     font-size: 20px;
-    margin: 0 0 10px; /* Entfernt den oberen und unteren Abstand von h2 und fügt Abstand zum unteren Rand hinzu */
+    margin: 0 0 10px; 
   }
   
   p {
     font-size: 16px;
-    margin: 0; /* Entfernt den Abstand zum oberen und unteren Rand von p */
+    margin: 0; 
   }
   
   /* Stile für spezifische Jahresereignisse */
@@ -347,7 +347,7 @@ body {
 .image-gallery img {
   margin: 10px;
   transition: transform 1.5s;
-  max-width: 300px; /* Setzen Sie die maximale Breite für die Bilder */
+  max-width: 300px; 
 }
 
 .image-gallery img:hover {
@@ -355,7 +355,6 @@ body {
 }
 
 /* Stil für die Dankesnachricht */
-
 /* Fügen Sie dies am Ende Ihrer vorhandenen CSS-Datei hinzu oder erstellen Sie eine separate CSS-Datei */
 
 .thank-you-message {
