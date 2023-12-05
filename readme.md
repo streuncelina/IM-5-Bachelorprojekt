@@ -10,7 +10,7 @@ Die Unterseiten programmierte ich mit HTMl und teils auch JS, beim Anmeldeformul
 Für mich war es realtiv schwierig ohne ChatGPT etwas zu erstellen. Am schwierigsten fand ich die ganze Seite Mobile Responsive zu machen. Auch schwer war es, Java zu programmieren.
 Beim Anmelde-Formular funktionierte zuerst nicht, dass man draufklicken kann und dann absendet und anschliessend eine Message kommt. Daran musste ich am längsten arbeiten. 
 ### Learnings
-Das Programmieren fiel mir schwer, weshalb ich vor allem mit W3 Schools und ChatGTP aber auch Youtube oder Tiktok Videos gearbeitet habe. 
+Das Programmieren fiel mir schwer, weshalb ich vor allem mit ChatGPT aber auch Youtube oder Tiktok Videos gearbeitet habe. 
 Gelert habe ich aber auch, dass Übung den Meister macht und dass je vertiefter man programmiert desto besser geht es. 
 ### Quellen
 * Chatgpt online Verfügbar unter (https://chat.openai.com/)
