@@ -7,7 +7,7 @@ Aus diesem Grund habe ich mich dann für eine Veranstaltungs-Seite entschieden. 
 Danach kamen die Unterseiten. Den Hintergrund habe ich selbst in Illustrator erstellt. Ich benutzte die Programmiersprachen HTML, CSS und JS. 
 Die Unterseiten programmierte ich mit HTMl und teils auch JS, beim Anmeldeformular zum Beispiel. Die Unterseiten Uber uns, Anmeldung und Eindrücke waren relativ einfach zu erstellen. Auch kann man immer mit einem zurück Button, zurück auf die Hauptseite gelangen.
 ### Challenges
-Für mich war es realtiv schwierig ohne ChatGPT etwas zu erstellen. Am schwierigsten fand ich die ganze Seite Mobile Responsive zu machen. Auch schwer war es, Java zu programmieren.
+Für mich war es realtiv schwierig ohne ChatGPT etwas zu erstellen. Am schwierigsten fand ich die ganze Seite Mobile Responsive zu machen, was leider auch nicht gut geklappt hat. Leider funktioniert es nicht überall...Auch schwer war es, Java zu programmieren.
 Beim Anmelde-Formular funktionierte zuerst nicht, dass man draufklicken kann und dann absendet und anschliessend eine Message kommt. Daran musste ich am längsten arbeiten. 
 ### Learnings
 Das Programmieren fiel mir schwer, weshalb ich vor allem mit ChatGPT aber auch Youtube oder Tiktok Videos gearbeitet habe. 
