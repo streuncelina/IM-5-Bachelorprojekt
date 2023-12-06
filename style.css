@@ -1,95 +1,95 @@
 body {
-    background: #CFEADE;
-    padding: 0;
+  background: #CFEADE;
+  padding: 0;
 
 }
 header {
-  z-index: 9;
+z-index: 9;
 }
 
 nav {
-    display: none;
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    font-size: 48px;
-    width: 100%;
-    height: 100%;
+  display: none;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  font-size: 48px;
+  width: 100%;
+  height: 100%;
 }
 
 .menubutton {
-    font-size: 50px;
-    cursor: pointer;
-    z-index: 9;
-    position: absolute;
-    top: 0;
-    right: 0;
+  font-size: 50px;
+  cursor: pointer;
+  z-index: 9;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .menu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .menu li {
-    margin: 10px;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    background-color: #026B65;
-    margin: 0; /* Kein Abstand zwischen den Menüpunkten */
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    
+  margin: 10px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  background-color: #026B65;
+  margin: 0; /* Kein Abstand zwischen den Menüpunkten */
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  
 }
 
 .menu li a {
-    color: white; 
-    text-decoration: none; 
+  color: white; /* Farbe ändern, z.B. auf Rot (#ff0000) */
+  text-decoration: none; /* Entfernen der Textunterstreichung */
 }
 
 /* Ändern der Schriftfarbe für das Burger-Icon */
 .menubutton {
-    color: #82B1C3; 
+  color: #82B1C3; /* Farbe ändern, z.B. auf Grün (#00ff00) */
 }
 
 .menu li a:hover {
-    color: #82B1C3 ; 
+  color: #82B1C3 ; /* Ändern Sie #FF0000 auf die gewünschte Farbe beim Überfahren mit der Maus */
 }
 
 #content-container {
-    display: flex;
-    justify-content: flex-end; 
-    align-items: center; 
-    text-align: left; 
+  display: flex;
+  justify-content: flex-end; /* Bild rechts ausrichten */
+  align-items: center; /* Zentriert den Inhalt vertikal */
+  text-align: left; /* Text links ausrichten */
 }
 
 
 #text-container {
-    padding: 20px; 
-    margin-right: 400px;
-    text-align: center; 
-    font-size: 200px;
+  padding: 20px; /* Platz um den Textcontainer hinzufügen */
+  margin-right: 400px;
+  text-align: center; /* Text horizontal zentrieren */
+  font-size: 200px;
 }
 
 
 h1 {
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-    color: #82B1C3;
-    text-align: center;
-    display: inline;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: #82B1C3;
+  text-align: center;
+  display: inline;
 
 }
 
 h2 {
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif; 
-    font-weight: lighter;
-    color: white;
-    text-align: left;
-    display: flex;
-    
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif; 
+  font-weight: lighter;
+  color: white;
+  text-align: left;
+  display: flex;
+  
 }
 
 /*Box für Text auf Hauptseite */
@@ -97,293 +97,294 @@ h2 {
 /* style.css */
 
 .Haupttext {
-    background-color: #82B1C3;
-    color: white;
-    padding: 20px;
-    border-radius: 5px;
-    margin: 50px 0; 
-    margin-left: 100px;
-    border-radius: 10px; 
-  }
-  
-  .Haupttext h1 {
-    font-size: 24px;
-    margin: 0 0 10px; 
-  }
-  
-  .Haupttext h2 {
-    font-size: 20px;
-    margin: 0; 
-  }
+  background-color: #82B1C3;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 50px 0; /* Abstand oben und unten von 20px */
+  margin-left: 100px;
+  border-radius: 10px; /* Abgerundete Ecken mit einem Radius von 10px */
+}
+
+.Haupttext h1 {
+  font-size: 24px;
+  margin: 0 0 10px; /* Entfernt den oberen und unteren Abstand von h1 und fügt Abstand zum unteren Rand hinzu */
+}
+
+.Haupttext h2 {
+  font-size: 20px;
+  margin: 0; /* Entfernt den oberen und unteren Abstand von h2 */
+}
 
 
 /* Stil für das Formularcontainer */
 
 .form-container {
-  max-width: 800px;
-  margin-left: 200px;
-  margin-right: 200px;
-  padding: 90px;
-  border-radius: 20px;
-  font-family: "Roboto", sans-serif; 
-  color: white;
-  background-color: #026B65; 
+max-width: 800px;
+margin-left: 200px;
+margin-right: 200px;
+padding: 90px;
+border-radius: 20px;
+font-family: "Roboto", sans-serif; /* Schriftart für das Formular */
+color: white;
+background-color: #026B65; /* Hintergrundfarbe für das Formular */
 }
 
 
 .Anmeldungtext {
-  text-align: center;
-  padding: 20px;
-  background-color: #82B1C3;
+text-align: center;
+padding: 20px;
+background-color: #82B1C3;
 }
 
 /* Stil für Formularelemente */
 .form-group {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 label {
-    display: block;
-    font-weight: bold;
+  display: block;
+  font-weight: bold;
 }
 
 input[type="text"],
 input[type="email"],
 select {
-    width: 100%;
-    padding: 5px;
-    margin: 5px 0;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
 }
 
 button {
-    background-color:#026B65 ;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    padding: 10px 20px;
-    cursor: pointer;
-    text-align: center;
-    display: inline-block;
+  background-color:#026B65 ;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
 
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .countdown-box {
-    background-color: #82B1C3; 
-    border-radius: 10px; 
-    padding: 20px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif; 
-    color: #fff; 
-    margin-left: 150px;
-    margin-right: 80px;
+  background-color: #82B1C3; /* Hintergrundfarbe des Kästchens */
+  border-radius: 10px; /* Runde Ecken */
+  padding: 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif; /* Schriftart Roboto Sans Serif */
+  color: #fff; /* Textfarbe */
+  margin-left: 150px;
+  margin-right: 80px;
 }
 
 .countdown {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .timer {
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 5px 0;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 5px 0;
 }
 
 .timer-label {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 /* Fügen Sie diese CSS-Regeln hinzu */
 
 .rotate-button-container {
-    position: fixed;
-    top: 70px;
-    left: 70px;
-  }
-  
-  .rotate-button {
-    display: inline-block;
-    background-color: burlywood;
-    color: white;
-    padding: 20px;
-    border-radius: 50%;
-    border: 2px solid whitesmoke; 
-    text-align: center;
-    font-family: 'Roboto', sans-serif; 
-    font-size: 16px;
-    font-weight: bold;
-    text-decoration: none;
-    transform-origin: center;
-    transition: transform 0.5s;
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
-  }
-  
-  .rotate-button:hover {
-    transform: rotate(360deg);
-  }
-  
-  .background-image {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('Images/Hintergrund.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.3; 
-    z-index: -1; 
-  }
+  position: fixed;
+  top: 70px;
+  left: 70px;
+}
+
+.rotate-button {
+  display: inline-block;
+  background-color: burlywood;
+  color: white;
+  padding: 20px;
+  border-radius: 50%;
+  border: 2px solid whitesmoke; /* Weiße Linie um den Kreis */
+  text-align: center;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  transform-origin: center;
+  transition: transform 0.5s;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+}
+
+.rotate-button:hover {
+  transform: rotate(360deg);
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('Images/Hintergrund.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.3; /* Ändern Sie den Wert, um die Transparenz anzupassen. */
+  z-index: -1; /* Stellen Sie sicher, dass dieses Element hinter anderen Elementen liegt. */
+}
 
 /* style.css ueber uns */
 
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    margin-top: 90px;
-    padding: 0;
-    background-image: url('Images/Hintergrund.svg'); 
-    background-position: center;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  margin-top: 90px;
+  padding: 0;
+  background-image: url('Images/Hintergrund.svg'); /* Hintergrundbild-URL */
+  background-position: center;
 
-  }
-  
-  .info-box {
-    background-color: #82B1C3;
-    color: white;
-    padding: 20px;
-    border-radius: 5px;
-    margin: 4cm; /* Abstand vom Rand etwa 4 cm */
-    margin-top: 100px;
-  }
-  
-  h1 {
-    font-size: 24px;
-    margin: 0 0 20px; 
-    color: white;
-  }
-  
-  .timeline {
-    display: flex;
-    flex-direction: column; 
-  }
-  
-  .event {
-    background-color: #fff;
-    padding: 20px;
-    margin: 10px 0; 
-  }
-  
-  h2 {
-    font-size: 20px;
-    margin: 0 0 10px; 
-  }
-  
-  p {
-    font-size: 16px;
-    margin: 0; 
-  }
-  
-  /* Stile für spezifische Jahresereignisse */
-  .event:nth-child(1) {
-    background-color: lightgray;
-    border-radius: 20px;
-  }
-  
-  .event:nth-child(2) {
-    background-color: lightgray;
-    border-radius: 20px;
-  }
-  
-  .event:nth-child(3) {
-    background-color: lightgray;
-    border-radius: 20px;
-  }
-  
-  .event:nth-child(4) {
-    background-color: lightgray;
-    border-radius: 20px;
-  }
-  
-  .event:nth-child(5) {
-    background-color: lightgray;
-    border-radius: 20px;
-  }
-  
-  .event:nth-child(6) {
-    background-color: lightgray;
-    border-radius: 20px;
-  }
-  
- /* Galerie eindrücke */
+}
 
- .image-gallery {
+.info-box {
+  background-color: #82B1C3;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 4cm; /* Abstand vom Rand etwa 4 cm */
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0 0 20px; /* Entfernt den oberen und unteren Abstand von h1 und fügt Abstand zum unteren Rand hinzu */
+  color: white;
+}
+
+.timeline {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 20px;
+  flex-direction: column; /* Anordnen der Ereignisse in einer Spalte */
+}
+
+.event {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px 0; /* Abstand zwischen den Ereignissen */
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0 0 10px; /* Entfernt den oberen und unteren Abstand von h2 und fügt Abstand zum unteren Rand hinzu */
+}
+
+p {
+  font-size: 16px;
+  margin: 0; /* Entfernt den Abstand zum oberen und unteren Rand von p */
+}
+
+/* Stile für spezifische Jahresereignisse */
+.event:nth-child(1) {
+  background-color: lightgray;
+  border-radius: 20px;
+}
+
+.event:nth-child(2) {
+  background-color: lightgray;
+  border-radius: 20px;
+}
+
+.event:nth-child(3) {
+  background-color: lightgray;
+  border-radius: 20px;
+}
+
+.event:nth-child(4) {
+  background-color: lightgray;
+  border-radius: 20px;
+}
+
+.event:nth-child(5) {
+  background-color: lightgray;
+  border-radius: 20px;
+}
+
+.event:nth-child(6) {
+  background-color: lightgray;
+  border-radius: 20px;
+}
+
+/* Galerie eindrücke */
+
+.image-gallery {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 20px;
 }
 
 .image-gallery img {
-  margin: 10px;
-  transition: transform 1.5s;
-  max-width: 300px; 
+margin: 10px;
+transition: transform 1.5s;
+max-width: 300px; /* Setzen Sie die maximale Breite für die Bilder */
 }
 
 .image-gallery img:hover {
-  transform: scale(1.5);
+transform: scale(1.5);
 }
 
 /* Stil für die Dankesnachricht */
+
 /* Fügen Sie dies am Ende Ihrer vorhandenen CSS-Datei hinzu oder erstellen Sie eine separate CSS-Datei */
 
 .thank-you-message {
-  display: none;
-  text-align: center;
-  padding: 20px;
-  background-color: #f2f2f2;
-  border: 1px solid #ddd;
-  margin-top: 20px;
+display: none;
+text-align: center;
+padding: 20px;
+background-color: #f2f2f2;
+border: 1px solid #ddd;
+margin-top: 20px;
 }
 
 .thank-you-message h2 {
-  color: #026B65;
+color: #026B65;
 }
 
 .thank-you-message p {
-  color: #333;
+color: #333;
 }
 
 
 .back-button {
-  display: inline-block;
-  padding: 10px 20px;
-  border-radius: 50%; /* Macht den Button rund */
-  overflow: hidden;
-  background-color: white; /* Hintergrundfarbe anpassen */
-  color: #026B65;
-  text-decoration: none;
-  font-size: 16px;
-  margin-right: 50px;
+display: inline-block;
+padding: 10px 20px;
+border-radius: 50%; /* Macht den Button rund */
+overflow: hidden;
+background-color: white; /* Hintergrundfarbe anpassen */
+color: #026B65;
+text-decoration: none;
+font-size: 16px;
+margin-right: 50px;
 }
 
