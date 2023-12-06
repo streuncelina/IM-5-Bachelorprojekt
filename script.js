@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
     registrationForm.addEventListener('submit', function (event) {
         event.preventDefault(); // Verhindert das Standardverhalten des Formulars (das Neuladen der Seite)
 
+        // Hier können Sie weitere Logik für die Formularverarbeitung hinzufügen, z. B. eine AJAX-Anfrage senden.
 
         // Zeige die Dankesnachricht an und blende das Formular aus
         registrationForm.style.display = 'none';
